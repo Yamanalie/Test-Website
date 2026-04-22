@@ -1,114 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>YamanProMax</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yamanalie</title>
 </head>
 
 <body>
-        <h1>YamanProMax</h1>
-        <p>Welcome To YamanProMax</p>
-    <br>
-        <h3><strong>Our Products:</strong></h3>
-    <ul>
-        <li>Original Niggas</li>
-        <li>Enhanced Edition</li>
-        <li>Ultimate Edition</li>
-    </ul>
-    <h3>my hobbies</h3>
-    <ol>
-        <li>Reading</li>
-        <li>Writing</li>
-        <li>Gaming</li>
-        <li>Swimming</li> 
-    </ol>
+  <header class="page-header">
+    <img src="PROJECT'S IMAGES/Logo.png" alt="logo" width="210" height="200" />
+    <h1 class="site-title">Yamanalie</h1>
+    <p class="subtitle">Welcome To My Portfolio!</p>
+  </header>
 
-    <!-- Images -->
-    <p><h4><center>External Image Example:</center></h4></p>
-    <center><img src="https://i.pinimg.com/236x/38/44/f7/3844f7bed50657888f2350f4197ce247.jpg" alt="instagram"></center>
-    <p><h4><center>Internal Image Example:</center></h4></p>
-    <center><img src="PROJECT'S IMAGES/cat.png" alt="SUS cat"></center>
+  <main class="page-content">
+    <section class="services">
+      <h2>My Services</h2>
+      <ul>
+        <li>Brand Identity Design</li>
+        <li>Social Media Posts Design</li>
+        <li>Short Video Editing</li>
+      </ul>
+    </section>
 
-    <!-- Links -->
-    <p><h4><center>External Link Example:</center></h4></p>
-    <center><a href="https://www.google.com" target="_blank">Visit Google Ma Man</a></center>
-    <p><h4><center>Internal Link Example:</center></h4></p>
-    <center><a href="Cats.html" target="_blank">Cats Collection</a></center>
-    <p><h4><center>Email Example:</center></h4></p>
-    <center><a href="mailto:mr.gamer36547@gmail.com" target="_blank">My Email</a></center>
-    <hr>
-    
-    <table border="1px">
-    <thead>
-        <tr>
-            <th>Dates</th>
-            <th>Exoerience</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
+    <section class="experience">
+      <h2>Experience</h2>
+
+      <table border="1" cellspacing="0">
+        <thead>
+          <tr>
+            <th scope="col">Dates</th>
+            <th scope="col">Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
             <td>2023</td>
-            <td>Grahpics Designer</td>
-        </tr>
-        <tr>
+            <td>Graphics Designer — Social Media</td>
+          </tr>
+          <tr>
             <td>2025</td>
             <td>Brand Identity Designer</td>
-        </tr> 
-    </tbody>
-    <tfoot>
+          </tr>
+          <tr>
+            <td>2026</td>
+            <td>Video Editor — Short Form</td>
+          </tr>
+        </tbody>
+      </table>
 
-    </tfoot> 
+      <hr />
+    </section>
 
-    </table>
+    <section class="contact">
+      <h2>Contact Me</h2>
 
-    <table cellspacing ="20">
-        <tr>
-            <td><img src="PROJECT'S IMAGES/cat.png" alt="SUS cat"></td>
-            <td>A cat
-            <p>It's a Cat fr</p></td>
-        </tr>
-    </table>
+      <form
+        action="mailto:mr.gamer36547@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <table border="1" cellspacing="0" class="contact-table">
+          <tbody>
+            <tr>
+              <td><label for="name">Your Name</label></td>
+              <td>
+                <input id="name" type="text" name="Your Name" autocomplete="name" />
+              </td>
+            </tr>
 
-    <P><strong>Skills:</strong></P>
-    <table cellspacing="10"> 
-    <tbody>
-        <tr>
-            <td>Grahpics Design  *****</td>
-            <td>HTML  ***</td>
-        </tr>
-        <tr>
-            <td>Selling Slaves  ********</td>
-            <td>Video Editing  ****</td>
-        </tr>
-    </tbody>
-</table>
+            <tr>
+              <td><label for="details">What Do You Want?</label></td>
+              <td>
+                <input id="details" type="text" name="More Details" />
+              </td>
+            </tr>
 
-    <hr>
-    <form action="mailto:mr.gamer36547@gmail.com" method="post" enctype="text/plain">
-    <table border="1px">
-    <tbody>
-        <tr>
-            <td><label>Your Name:</label></td>
-            <td><input type="text" name="Your Name" value=""><br></td>
-        </tr>
-        <tr>
-            <td><label>Your Password:</label></td>
-            <td><input type="password" name="Your Password" value=""><br></td>
-        </tr>
-        <tr>
-            <td><label>Your Email:</label></td>
-            <td><input type="email" name="Your Email" value=""><br></td>
-        </tr> 
-        <tr>
-            <td><label>Your Age:</label></td>
-            <td><input type="number" name="Your Age" value=""><br></td>
-        </tr>
-        <tr>
-            <td colspan="2" style="text-align: center;"><input type="submit" value="Submit"></td>
-        </tr>
-    </tbody>
-    </table>
-    </form>
-    <!-- the "<td colspan="2">"-->
-    <!-- This allows the submit button to span across two columns in the table, centering it -->
-
+            <tr>
+              <td colspan="2" style="text-align: center;">
+                <button type="submit">Submit</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </section>
+  </main>
 </body>
+</html>
